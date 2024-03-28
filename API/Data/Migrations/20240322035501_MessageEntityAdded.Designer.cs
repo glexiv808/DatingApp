@@ -26,11 +26,9 @@ namespace API.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("City")
-                        
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Country")
-                        
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("Created")
@@ -40,7 +38,6 @@ namespace API.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Gender")
-                        
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Interests")
